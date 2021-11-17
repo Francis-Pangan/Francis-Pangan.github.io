@@ -39,15 +39,23 @@
       <p><strong>B. Best practices associated with Classes vs IDs!</strong><em> (It was the easiest topic!)</em></p>
       
       <div>
-        <p>Let's look at the difference between them first. IDs are unique identifiers. If for example you create an ID and call it "title", and then apply CSS style to it,
-          no other 
+        <p>Classes and IDs are selectors, and allow you to assign a Class or ID to an HTML element, and apply style to it. 
+          IDs are unique identifiers. If for example you create an ID and name it "title", you cannot use the "title" ID again.
+          You can, however make up a new ID (say for example, call it "title2"), and tell your CSS file how to style it.
 
 
           Classes, on the other hand, allows us to group multiple elements, and apply style to the entire Class.
-          So: IDs, unique. Classes, groups. With me so far? Good.
+          
+          So how do we know to use Classes or IDs?
+          We use Classes if we want to apply the same style to a group of related items. 
+          And we use IDs to apply a specific style to a single element on your web page.
+          With me so far? Good.
 
-          IDs get higher priorty than Classes. This 
+          IDs get higher priorty than Classes. This means that if you have an element that has both a Class and an ID assigned to it, your browser will always apply the ID CSS, and override the Class CSS.
 
+          Let's look at some examples, shall we?
+          We'll be looking at code I used for this very blog.
+          
 
         </p>
       </div>

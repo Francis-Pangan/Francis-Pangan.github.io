@@ -1,12 +1,26 @@
+
+#main-header {
+    background-color: black;
+    height:100px;
+    width: 100%;
+    
+    display: block;
+    color:blanchedalmond;
+    }
+   
+
+
 body { 
    background-color: #DFD8CA;
+   height:20px;
     }
 
 hr {
     border-color: #105652;
-    border-style: dotted none none;
+    border-style: none;
+    border-top-style: dotted;
     border-width: 6px;
-    width: 30%;
+    width: 10%;
     }   
 
 
