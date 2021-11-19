@@ -14,7 +14,9 @@
 
     
   <body>
-  
+    <h1 id="main-header"></h1>
+    </div>
+
   <h1>Technically... </h1>
  
   
@@ -28,43 +30,64 @@
             <li>What are the differences between relative, absolute, and fixed positioning?</li>
             <li>What does it mean to display inline vs inline blocks?</li>
         </ol>
-
       </div>
+
      <hr>
+
       <div>
         <p>I'm here to teach you a little bit about CSS. The topic for today is...(drumroll)</p>
       </div>
 
-      <img src="WillSmith.jpg" height="250"</img>
-      <p><strong>B. Best practices associated with Classes vs IDs!</strong><em> (It was the easiest topic!)</em></p>
+      <img src="WillSmith.jpg" height="250">
+
+      
+      <h2>A. The difference between Margin, Border, and Padding</h2><em> (It was the easiest topic!)</em></p>
       
       <div>
-        <p>Classes and IDs are selectors, and allow you to assign a Class or ID to an HTML element, and apply style to it. 
-          IDs are unique identifiers. If for example you create an ID and name it "title", you cannot use the "title" ID again.
-          You can, however make up a new ID (say for example, call it "title2"), and tell your CSS file how to style it.
+        <p>
+          A webpage's basic structure is that it's made up of boxes. Boxes inside boxes, nestled within boxes, beside other boxes... it's boxes all the way down.
+          You can specify the size of these boxes, and the content inside them, by using <strong>Margins, Borders.</strong> and <strong>Paddings.</strong>
+        </p>
+
+        <p>
+          <h3>Borders</h3>
+          Let's talk about Contents real quick before we jump into Borders.
+          When you add anything to your webpage, be it text, a picture, or anything else, this is known as the Content.
+
+          Now your content will have boundaries (remember the boxes?). 
+          These boundaries are your Border. Simple.
+          You can order your CSS to apply style to your border, and define the color, how thick you want it to be, whether you want it to be solid, dashed, or any other style, etc.
+        </p>
 
 
-          Classes, on the other hand, allows us to group multiple elements, and apply style to the entire Class.
-          
-          So how do we know to use Classes or IDs?
-          We use Classes if we want to apply the same style to a group of related items. 
-          And we use IDs to apply a specific style to a single element on your web page.
-          With me so far? Good.
+        <p>
+          <h3>Paddings</h3>
+          Now that we've defined borders, let's look at Paddings.
+          A padding is the space between your content and the border. This space is transparent. 
+        </p>
 
-          IDs get higher priorty than Classes. This means that if you have an element that has both a Class and an ID assigned to it, your browser will always apply the ID CSS, and override the Class CSS.
 
-          Let's look at some examples, shall we?
-          We'll be looking at code I used for this very blog.
-          
+        <p>
+          <h3>Margins</h3>
+          Finally, Margins. This is the space between your border and other margins.
+          Same as Paddings, Margins are transparent. 
+        </p>
+
+        <p>I created a small image to depict how these three work together:</p>
+        <img src="BorderMarginContent.jpg" alt="Borders, Margins and Padding" height="250">
+        <p>&nbsp;</p>
+        <a href="https://www.w3schools.com/css/css_boxmodel.asp">More information here.</a>
+
+
+
 
         </p>
       </div>
-    <hr>
-      <form>
-        <input type="BUTTON" value="I'll be back!" onclick="window.location.href='index.html'">
-        </form>
-    
-    
+
+    <p>&nbsp;</p>
+    <h1 class="footer">
+      <input type="BUTTON" class="home-button" value="I'll be back!" onclick="window.location.href='index.html'">
+    </h1>
 
   
   </body>

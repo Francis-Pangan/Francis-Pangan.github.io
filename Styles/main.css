@@ -1,19 +1,53 @@
 
+
 #main-header {
     background-color: black;
-    height:100px;
+    height:40px;
     width: 100%;
-    
+    padding: 25px;
+    margin: -20px;
     display: block;
     color:blanchedalmond;
     }
-   
+
+
+
+
+.footer {
+    background-color: black ;
+    height:35px;
+    width: 100%;
+    padding: 15px;
+    margin: -20px;
+    display: block;
+    color:blanchedalmond;
+    }   
+
+.home-button {
+  background-color: black;
+  border: none;
+  color: blanchedalmond;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: -5px 2px;
+  cursor: pointer;
+
+
+.francis-picture {
+    height: 150px;
+    border-color: white;
+    border-width: 0px;
+    border-radius: 50%;
+    }   
 
 
 body { 
-   background-color: #DFD8CA;
-   height:20px;
-    }
+     background-color: #DFD8CA;
+    height:20px;
+     }
 
 hr {
     border-color: #105652;
