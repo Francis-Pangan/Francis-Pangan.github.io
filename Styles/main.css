@@ -10,7 +10,9 @@
     color:blanchedalmond;
     }
 
-
+.blog-title {
+    color: maroon;
+    font-family: "Lucida Handwriting", Cursive ;}
 
 
 .footer {
@@ -34,20 +36,24 @@
   font-size: 20px;
   margin: -5px 2px;
   cursor: pointer;
-
+  }
 
 .francis-picture {
-    height: 150px;
+    height: 200px;
     border-color: white;
     border-width: 0px;
     border-radius: 50%;
-    }   
+    }
 
 
-body { 
-     background-color: #DFD8CA;
-    height:20px;
-     }
+body {
+    background-color:burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    padding: 30px 50px 40px 50px;
+    }
 
 hr {
     border-color: #105652;
@@ -56,17 +62,3 @@ hr {
     border-width: 6px;
     width: 10%;
     }   
-
-
-h1 {
-    color: #B91646;
-    font-family: Garamond;
-    }
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    }
-
-li {
-    font-family: Arial, Helvetica, sans-serif;
-    }
